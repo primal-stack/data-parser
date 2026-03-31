@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.data-parser {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.data-parser h1 {
+    text-align: center;
+}
+
+.data-parser .data-grid {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.data-parser .data-grid th, .data-parser .data-grid td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.data-parser .data-grid th {
+    background-color: #f7f7f7;
+}
+
+.data-parser .data-grid tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-parser .data-grid tr:hover {
+    background-color: #ddd;
+}
+
+.data-parser .error-message {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar .bar {
+    height: 100%;
+    background-color: #2ecc71;
+}
